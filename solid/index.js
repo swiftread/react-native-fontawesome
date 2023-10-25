@@ -1,1 +1,1 @@
-export * from '../../lib/module/solid'
+export * from '../lib/module/solid'

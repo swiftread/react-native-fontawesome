@@ -1,1 +1,1 @@
-export * from '../../lib/typescript/solid'
+export * from '../lib/typescript/solid'

@@ -1,1 +1,1 @@
-export * from '../../lib/module/regular'
+export * from '../lib/module/regular'

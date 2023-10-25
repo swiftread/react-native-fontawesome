@@ -1,1 +1,1 @@
-export * from '../../lib/typescript/brands'
+export * from '../lib/typescript/brands'

@@ -1,1 +1,1 @@
-export * from '../../lib/typescript/regular'
+export * from '../lib/typescript/regular'

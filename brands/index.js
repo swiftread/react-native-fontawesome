@@ -1,1 +1,1 @@
-export * from '../../lib/module/brands'
+export * from '../lib/module/brands'
