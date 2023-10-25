@@ -7,7 +7,7 @@
     "typescript": "^4.7.4"
   },
   "name": "@swiftread/fontawesome",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
   "module": "lib/module/index.js",
@@ -20,6 +20,11 @@
   "files": [
     "src",
     "lib",
+    "brands",
+    "regular",
+    "solid",
+    "index.d.ts",
+    "typefix.d.ts",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
