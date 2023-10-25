@@ -8,7 +8,7 @@ export const Icon = () => <SolidAddressBook />
 
 ## Overview
 
-This library exports React Native components for each of [FontAwesome's 2,025 free icons](https://fontawesome.com/search?o=r&m=free).
+This library exports React Native components for each of [FontAwesome's 2,025 free icons](https://fontawesome.com/search?o=r&m=free). Based on [nandorojo's react-native-heroicons](https://github.com/nandorojo/react-native-heroicons).
 
 - 😎 Free, beautiful icons
 - 🔥 Customizable with `react-native-svg` props
