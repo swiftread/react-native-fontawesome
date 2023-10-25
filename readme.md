@@ -1,9 +1,9 @@
 # 🎨 React Native FontAwesome
 
 ```ts
-import { SolidAddressBook } from '@swiftread/fontawesome'
+import { FaSolidAddressBook } from '@swiftread/fontawesome'
 
-export const Icon = () => <SolidAddressBook />
+export const Icon = () => <FaSolidAddressBook />
 ```
 
 ## Overview
@@ -29,10 +29,10 @@ yarn add @swiftread/fontawesome react-native-svg
 
 Each icon is exported as its own component with an adjusted name.
 
-For example, to use the solid `address-book` icon, import `SolidAddressBook`:
+For example, to use the solid `address-book` icon, import `FaSolidAddressBook`:
 
 ```tsx
-import { SolidAddressBook } from '@swiftread/fontawesome'
+import { FaSolidAddressBook } from '@swiftread/fontawesome'
 ```
 
 You can also `import * as Fontawesome`:
@@ -40,7 +40,7 @@ You can also `import * as Fontawesome`:
 ```tsx
 import * as FontAwesome from '@swiftread/fontawesome'
 
-export const Icon = () => <FontAwesome.SolidAddressBook />
+export const Icon = () => <FontAwesome.FaSolidAddressBook />
 ```
 
 For a full directory of components, see the [FontAwesome](https://fontawesome.com/search?o=r&m=free) website.
@@ -48,13 +48,13 @@ For a full directory of components, see the [FontAwesome](https://fontawesome.co
 ### Custom color
 
 ```tsx
-<SolidAddressBook color="black" />
+<FaSolidAddressBook color="black" />
 ```
 
 ### Custom size
 
 ```tsx
-<SolidAddressBook height={30} width={30} />
+<FaSolidAddressBook height={30} width={30} />
 ```
 
 ## Props
