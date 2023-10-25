@@ -1,7 +1,7 @@
 # 🎨 React Native FontAwesome
 
 ```ts
-import { SolidAddressBook } from '@swiftread/react-native-fontawesome'
+import { SolidAddressBook } from '@swiftread/fontawesome'
 
 export const Icon = () => <SolidAddressBook />
 ```
@@ -22,7 +22,7 @@ This library exports React Native components for each of [FontAwesome's 2,025 fr
 ## Installation
 
 ```sh
-yarn add @swiftread/react-native-fontawesome react-native-svg
+yarn add @swiftread/fontawesome react-native-svg
 ```
 
 ## Usage
@@ -32,13 +32,13 @@ Each icon is exported as its own component with an adjusted name.
 For example, to use the solid `address-book` icon, import `SolidAddressBook`:
 
 ```tsx
-import { SolidAddressBook } from '@swiftread/react-native-fontawesome'
+import { SolidAddressBook } from '@swiftread/fontawesome'
 ```
 
 You can also `import * as Fontawesome`:
 
 ```tsx
-import * as FontAwesome from '@swiftread/react-native-fontawesome'
+import * as FontAwesome from '@swiftread/fontawesome'
 
 export const Icon = () => <FontAwesome.SolidAddressBook />
 ```

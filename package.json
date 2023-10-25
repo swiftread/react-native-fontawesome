@@ -6,7 +6,7 @@
     "react-native-builder-bob": "^0.23.1",
     "typescript": "^5.2.2"
   },
-  "name": "@swiftread/react-native-fontawesome",
+  "name": "@swiftread/fontawesome",
   "version": "0.0.1",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.ts",
