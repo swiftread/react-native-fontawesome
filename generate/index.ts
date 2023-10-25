@@ -37,7 +37,7 @@ const run = async (name: 'brands' | 'regular' | 'solid') => {
         throw new Error(`missing svg for ${name}/${filename}`)
       }
 
-      const [size] = name.split('/')
+      const size = '24'
 
       const transformed = await transform(
         svg,
