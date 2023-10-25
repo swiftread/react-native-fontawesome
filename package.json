@@ -6,7 +6,7 @@
     "react-native-builder-bob": "^0.23.1",
     "typescript": "^5.2.2"
   },
-  "name": "@swiftread/fontawesome",
+  "name": "@swiftread/react-native-fontawesome",
   "version": "0.0.1",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.ts",
@@ -42,5 +42,14 @@
   "prettier": {
     "singleQuote": true,
     "semi": false
-  }
+  },
+  "description": "This library exports React Native components for each of FontAwesome's 2,025 free icons.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swiftread/react-native-fontawesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swiftread/react-native-fontawesome/issues"
+  },
+  "homepage": "https://github.com/swiftread/react-native-fontawesome#readme"
 }
